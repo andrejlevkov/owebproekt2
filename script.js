@@ -133,7 +133,7 @@ function createpost(index){
 
     frm.append(comment);
     frm.append(postcom);
-    desc.text("Price: " + ceni[index] + " denari");
+    desc.text("Price: " + ceni[index] + " den.");
     sellername.text("Seller " + Math.floor(Math.random()*500 +1));
     sellername.css({'fontSize':'10', 'paddingTop':'3%'});
 
